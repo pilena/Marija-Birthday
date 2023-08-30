@@ -1,13 +1,14 @@
 export default () => (
   <div className="birthdayCard">
     <div className="cardFront">
-      <h3 className="happy">SREĆAN ROĐENDAN, <br></br> MARO!</h3>
-      <div className="balloons">
+      {/* <h3 className="happy">SREĆAN ROĐENDAN, <br></br> MARO!</h3> */}
+      {/* <img src="./happy.webp" /> */}
+      {/* <div className="balloons">
         <div className="balloonOne" />
         <div className="balloonTwo" />
         <div className="balloonThree" />
         <div className="balloonFour" />
-      </div>
+      </div> */}
     </div>
     <div className="cardInside">
       <p>Draga, najdraža...</p>
