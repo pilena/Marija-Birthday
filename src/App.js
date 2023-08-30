@@ -6,7 +6,7 @@ import JSConfetti from 'js-confetti'
 export default function App() {
   const jsConfetti = new JSConfetti()
   jsConfetti.addConfetti({
-   emojis: ['👑', '⚡️', '💥', '✨', '💫', '🌸',],
+   emojis: ['👑', '⚡️', '💥', '✨', '💫', '🌸', '💸'],
   })
   
   jsConfetti.addConfetti()
