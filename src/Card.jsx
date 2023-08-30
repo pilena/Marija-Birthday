@@ -1,7 +1,7 @@
 export default () => (
   <div className="birthdayCard">
     <div className="cardFront">
-      <h3 className="happy">HAPPY BIRTHDAY Love!</h3>
+      <h3 className="happy">SREĆAN ROĐENDAN, <br></br> MARO!</h3>
       <div className="balloons">
         <div className="balloonOne" />
         <div className="balloonTwo" />
@@ -10,13 +10,13 @@ export default () => (
       </div>
     </div>
     <div className="cardInside">
-      <h3 className="back">HAPPY BIRTHDAY vodoo!</h3>
-      <p>Dear Friend,</p>
+      {/* <h3 className="back">HAPPY BIRTHDAY vodoo!</h3> */}
+      <p>Draga, najdraža</p>
       <p>
         Happy birthday!! I hope your day is filled with lots of love and
         laughter! May all of your birthday wishes come true.
       </p>
-      <p className="name">Pawan</p>
+      <p className="name">Lenka</p>
     </div>
   </div>
 );

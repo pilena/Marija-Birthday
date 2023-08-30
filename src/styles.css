@@ -1,15 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
 body {
   display: flex;
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background-color: #073b4c;
+  background-color: #0d284a;
 }
 
 .birthdayCard {
   position: relative;
-  width: 250px;
-  height: 350px;
+  width: 350px;
+  height: 450px;
   cursor: pointer;
   transform-style: preserve-3d;
   transform: perspective(2500px);
@@ -33,8 +34,8 @@ body {
 .cardFront {
   position: relative;
   background-color: #fff;
-  width: 250px;
-  height: 350px;
+  width: 350px;
+  height: 450px;
   overflow: hidden;
   transform-origin: left;
   box-shadow: inset 100px 20px 100px rgba(0, 0, 0, 0.2),
@@ -43,10 +44,10 @@ body {
 }
 
 .happy {
-  font-family: Tahoma, sans-serif;
-  text-align: center;
+  /* font-family: Tahoma, sans-serif; */
+  font-family: 'Italianno', cursive;  text-align: center;
+  letter-spacing: 6px;
   margin: 30px;
-  background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
   transition: 0.1s;
   backface-visibility: visible;
 }
@@ -133,8 +134,8 @@ body {
 .cardInside {
   position: absolute;
   background-color: #fff;
-  width: 250px;
-  height: 350px;
+  width: 350px;
+  height: 450px;
   z-index: -1;
   left: 0;
   top: 0;
